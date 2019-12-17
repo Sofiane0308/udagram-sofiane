@@ -2,6 +2,8 @@ branch-defaults:
   default:
     environment: udagram-sofiane-dev-dev
     group_suffix: null
+  dev:
+    environment: udagram-sofiane-dev-dev
 deploy:
   artifact: ./www/Archive.zip
 global:
